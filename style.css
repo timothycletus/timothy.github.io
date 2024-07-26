@@ -1,0 +1,102 @@
+/* General Body and Background */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #cfd8dc;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation Styles */
+header {
+   
+    background-color: #1A1A1D;
+    padding: 1em 0;
+} h1{
+    text-align: left;
+    font-size: 2.4em;
+    padding-left: 0.8em;
+    color: #ffc107;
+}
+    
+nav ul {
+   font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+    padding-left: 2em;
+    list-style-type: none;
+    text-align: left;
+}
+nav ul li {
+    
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+  
+    color: #cfd8dc;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+nav ul li a:hover {
+    
+    color: #ffc107;
+}
+#home h2{
+    color: aquamarine;
+    margin-bottom: 0.3em;
+}
+
+#home p {
+    font-family: 'Roboto Mono', sans-serif; 
+    margin-bottom: 0em;/* Change the font to Arial */
+    font-size: 16px; /* Set the font size to 16px */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #263238;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1A1A1D;
+    color: #cfd8dc;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Utility Classes */
+h1, h2, h3 {
+    font-family: 'Roboto Mono', monospace;
+}
+h2{
+    font-size: 3em;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto; /* This makes the main content flex and pushes the footer down */
+}
+
+footer {
+    flex-shrink: 0; /* This prevents the footer from shrinking */
+}
